@@ -1,0 +1,125 @@
+{
+    "areas": [
+        "Main Hall",
+        "Garden Terrace"
+    ],
+    "tables": [
+        {
+            "no": 1,
+            "cap": 2,
+            "area": "Main Hall",
+            "bookings": {
+                "2026-06-16": [
+                    [
+                        "2026-06-16T13:04:00",
+                        "2026-06-16T15:04:00"
+                    ],
+                    [
+                        "2026-06-16T15:04:00",
+                        "2026-06-16T17:04:00"
+                    ]
+                ]
+            }
+        },
+        {
+            "no": 2,
+            "cap": 4,
+            "area": "Main Hall",
+            "bookings": {
+                "2026-06-16": [
+                    [
+                        "2026-06-16T14:04:00",
+                        "2026-06-16T16:04:00"
+                    ]
+                ]
+            }
+        },
+        {
+            "no": 3,
+            "cap": 4,
+            "area": "Main Hall",
+            "bookings": {}
+        },
+        {
+            "no": 4,
+            "cap": 2,
+            "area": "Garden Terrace",
+            "bookings": {}
+        },
+        {
+            "no": 5,
+            "cap": 6,
+            "area": "Garden Terrace",
+            "bookings": {}
+        },
+        {
+            "no": 10,
+            "cap": 12,
+            "area": "Main Hall",
+            "bookings": {}
+        }
+    ],
+    "reservations": [
+        {
+            "type": "Standard",
+            "name": "Alice Smith",
+            "phone": "0412 345 678",
+            "date": "2026-06-16 13:04",
+            "size": 2,
+            "status": "Confirmed",
+            "notes": "Allergy: Shellfish",
+            "table_no": 1,
+            "paid": false
+        },
+        {
+            "type": "Standard",
+            "name": "Bob Jones",
+            "phone": "0422 111 222",
+            "date": "2026-06-16 14:04",
+            "size": 4,
+            "status": "Confirmed",
+            "notes": "Window seat preferred",
+            "table_no": 2,
+            "paid": false
+        },
+        {
+            "type": "Standard",
+            "name": "Charlie Brown",
+            "phone": "0433 999 888",
+            "date": "2026-06-16 15:04",
+            "size": 2,
+            "status": "Confirmed",
+            "notes": "",
+            "table_no": 1,
+            "paid": false
+        },
+        {
+            "type": "Event",
+            "name": "David Miller",
+            "phone": "0455 000 111",
+            "date": "2026-06-16 16:04",
+            "size": 15,
+            "status": "Enquiry",
+            "notes": "50th Birthday - Bringing a large cake",
+            "table_no": [],
+            "paid": false,
+            "price": 0.0,
+            "deposit": 0.0,
+            "duration": 4
+        },
+        {
+            "type": "Event",
+            "name": "Eve Wilson",
+            "phone": "0466 777 888",
+            "date": "2026-06-16 17:04",
+            "size": 10,
+            "status": "Enquiry",
+            "notes": "Corporate lunch - Need a quiet corner",
+            "table_no": [],
+            "paid": false,
+            "price": 0.0,
+            "deposit": 0.0,
+            "duration": 4
+        }
+    ]
+}
